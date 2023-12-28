@@ -1,0 +1,105 @@
+:root {
+    /* font-size */
+    --fs_64: 64px;
+    --fs_2xl: 48.83px;
+    --fs_xl: 39.06px;
+    --fs_lx: 39.063px;
+    --fs_lg:  25px;
+    --fs_md: 20px;
+    --fs_sm: 16px;
+    --fs_12: 12.8px;
+    --fs_10: 10.24px;
+    /* font-weight */
+    --fw_2xl: 700;
+    --fw_xl: 600;
+    --fw_lg: 500;
+    --fw_md: 400;
+    --fw_300: 300;
+
+
+    /* color: ; */
+   --orange: #FF5300;
+   --black: #373737;
+   --white: #FFFFFF;
+   --paragraph: #7B7B7B;
+   --grey: #EFEFEF;
+   
+} 
+.poppins{
+    font-family: 'Poppins',sans-serif;
+}
+.Work_Sans{
+    font-family: 'Work Sans',sans-serif;
+}
+.grey{
+    color: var(--grey);
+}
+.fs_64{
+    font-size: var(--fs_64);
+}
+.fs_2xl{
+    font-size: var(--fs_2xl);
+}
+.fs_xl{
+    font-size: var(--fs_xl);
+}
+.fs_lx{
+    font-size: var(--fs_lx);
+}
+.fs_lg{
+    font-size: var(--fs_lg);
+}
+.fs_md{
+    font-size: var(--fs_md);
+}
+.fs_sm{
+    font-size: var(--fs_sm);
+}
+.fs_12{
+    font-size: var(--fs_12);
+}
+.fs_10{
+    font-size: var(--fs_10);
+}
+.fw_2xl{
+    font-weight: var(--fw_2xl);
+}
+.fw_xl{
+    font-weight: var(--fw_xl);
+}
+.fw_lg{
+    font-weight: var(--fw_lg);
+}
+.fw_md{
+ font-weight: var(--fw_md);
+}
+.fw_300{
+    font-weight: var(--fw_300);
+}
+.orange{
+    color: var(--orange);
+}
+.black{
+    color: var(--black);
+}
+.white{
+    color: var(--white);
+}
+.paragraph{
+    color: var(--paragraph);
+}
+@media (max-width: 576px) {
+    :root {
+        /* font-size */
+        --fs_64: 54px;
+        --fs_2xl: 31.83px;
+        --fs_xl: 39.06px;
+        --fs_lx: 28.063px;
+        --fs_lg:  25px;
+        --fs_md: 20px;
+        --fs_sm: 16px;
+        --fs_12: 12.8px;
+        --fs_10: 10.24px;
+}
+}
+ 
