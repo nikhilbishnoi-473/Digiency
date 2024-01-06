@@ -23,13 +23,29 @@
    --white: #FFFFFF;
    --paragraph: #7B7B7B;
    --grey: #EFEFEF;
-   
+   --color_1: #FFF7F4;
+   --red: #FF5300;
+   --white_bg: #FFFFFF;
+   --orange_bg: #FF5300;
+
 } 
+.orange_bg{
+    background: #FF5300;
+}
+.white_bg{
+    background: #FFFFFF;
+}
+.red{
+    background: var(--red);
+}
 .poppins{
     font-family: 'Poppins',sans-serif;
 }
 .Work_Sans{
     font-family: 'Work Sans',sans-serif;
+}
+.color_1{
+    background: var(--color_1);
 }
 .grey{
     color: var(--grey);
